@@ -1,5 +1,4 @@
 # 🌆 Smart City Air Quality Monitoring System
-## پاکستانی شہروں کے لیے ہوا کے معیار کی نگرانی
 
 Karachi · Lahore · Islamabad · Peshawar · Multan
 
@@ -156,25 +155,3 @@ python etl/transform.py     # AQI smoke-test
 - ✅ D5 — Silver + Gold built
 - ✅ D6 — Streamlit dashboard live
 
----
-
-## اردو ہدایات
-
-```bash
-# 1. لائبریریاں انسٹال کریں
-pip install -r requirements.txt
-
-# 2. .env فائل بنائیں اور credentials بھریں
-copy .env.example .env
-
-# 3. Snowflake میں SQL چلائیں (sql/ فولڈر)
-
-# 4. پوری پائپ لائن چلائیں
-python run_pipeline.py
-
-# 5. Snowflake کے بغیر (لوکل موڈ)
-python run_pipeline.py --skip-snowflake
-
-# 6. ڈیش بورڈ چلائیں
-streamlit run dashboard/app.py
-```
