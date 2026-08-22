@@ -3,7 +3,7 @@
 Karachi · Lahore · Islamabad · Peshawar · Multan
 
 ---
-![Uploading Screenshot 2026-08-08 162708.png…]()
+![alt text](image.png)
 
 ## Project Structure
 
